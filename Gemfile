@@ -8,6 +8,11 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
+gem 'capistrano', require: false
+gem 'capistrano-bundler', require: false
+gem 'capistrano-rails', require: false
+gem 'capistrano-rvm', github: 'capistrano/rvm', require: false
+gem 'capistrano-ssh-doctor', require: false
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
